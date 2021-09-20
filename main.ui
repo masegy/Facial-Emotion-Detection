@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1159</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-30</y>
+     <width>1161</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="tab">
+    <property name="styleSheet">
+     <string notr="true">#tab{
+background-image: url(:/newPrefix/background.png);
+}</string>
+    </property>
+    <attribute name="title">
+     <string>Tab 1</string>
+    </attribute>
+    <widget class="QPushButton" name="startButton">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>450</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#startButton{
+	color: rgb(255, 255, 255);
+	background-color: rgb(46, 192, 182);
+	border: 0px solid;
+	font-family:Ubuntu;
+	font-size:15px;
+	border-radius:5px;
+}
+#startButton:hover:pressed{	
+	background-color: rgb(46, 192, 182);
+}</string>
+     </property>
+     <property name="text">
+      <string>Mulai</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tabCon">
+    <property name="styleSheet">
+     <string notr="true">#tabCon{
+background-color: rgb(255, 255, 255);
+}</string>
+    </property>
+    <attribute name="title">
+     <string>Tab 2</string>
+    </attribute>
+    <widget class="QFrame" name="frame">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>171</width>
+       <height>601</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(1, 22, 39);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="camButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#camButton{
+	color: rgb(255, 255, 255);
+	background-color: rgb(1, 22, 39);
+	border: 0px solid;
+	font-family:Ubuntu;
+	font-size:15px;
+}
+#camButton:hover:pressed{	
+	background-color: rgb(46, 192, 182);
+}</string>
+      </property>
+      <property name="text">
+       <string>Rekam</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="haarButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>90</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#haarButton{
+	color: rgb(255, 255, 255);
+	background-color: rgb(1, 22, 39);
+	border: 0px solid;
+	font-family:Ubuntu;
+	font-size:15px;
+}
+#haarButton:hover:pressed{	
+	background-color: rgb(46, 192, 182);
+}</string>
+      </property>
+      <property name="text">
+       <string>Haarcascade</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="modButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>150</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#modButton{
+	color: rgb(255, 255, 255);
+	background-color: rgb(1, 22, 39);
+	border: 0px solid;
+	font-family:Ubuntu;
+	font-size:15px;
+}
+#modButton:hover:pressed{	
+	background-color: rgb(46, 192, 182);
+}</string>
+      </property>
+      <property name="text">
+       <string>Model</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="monButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>490</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#monButton{
+	color: rgb(255, 255, 255);
+	background-color: rgb(46, 192, 182);
+	border: 0px solid;
+	font-family:Ubuntu;
+	font-size:15px;
+	border-radius:5px;
+}
+#monButton:hover:pressed{	
+	background-color: rgb(46, 192, 182);
+}</string>
+      </property>
+      <property name="text">
+       <string>Monitoring</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="processButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>210</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Ubuntu</family>
+        <pointsize>-1</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#processButton{
+	color: rgb(255, 255, 255);
+	background-color: rgb(1, 22, 39);
+	border: 0px solid;
+	font-family:Ubuntu;
+	font-size:15px;
+}
+#processButton:hover:pressed{	
+	background-color: rgb(46, 192, 182);
+}</string>
+      </property>
+      <property name="text">
+       <string>Processing</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="camLabel">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>20</y>
+       <width>641</width>
+       <height>541</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>1</number>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="probLabel">
+     <property name="geometry">
+      <rect>
+       <x>830</x>
+       <y>20</y>
+       <width>321</width>
+       <height>271</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>1</number>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>850</x>
+       <y>310</y>
+       <width>291</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Helvetica&quot;;
+color:rgb(1, 22, 39);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Emosi&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Dominan:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>850</x>
+       <y>430</y>
+       <width>291</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24pt &quot;Helvetica&quot;;
+color: rgb(46, 192, 182);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
